@@ -20,7 +20,7 @@ chao.visible = false;
 }
 function draw(){
 background("white");
-if(keyDown("space")&&trex.y>=100){
+if(keyDown("space") && trex.y>=100){
   trex.velocityY = -10;
 }
 trex.velocityY = trex.velocityY+0.8
